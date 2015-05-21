@@ -162,11 +162,11 @@ header section {
   margin: 0;
   border-bottom: 1px solid #754721;
 }
-#mobilenavitems li li:hover,
-#mobilenavitems li li:active {
+#mobilenavitems li:hover,
+#mobilenavitems li:active {
   background-color: rgba(204, 204, 204, 0.7);
 }
-#mobilenavitems li li a {
+#mobilenavitems li a {
   display: block;
   padding: 1em;
 }
