@@ -1,0 +1,2 @@
+var mobileNavShown=!1;jQuery(document).ready(function(){$("#mobilemenubutton").click(function(){return mobileNavShown?($("#mobilenavitems").hide(),mobileNavShown=!1):($("#mobilenavitems").show(),mobileNavShown=!0),!1})});
+//# sourceMappingURL=./main-min.js.map

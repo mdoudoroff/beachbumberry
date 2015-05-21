@@ -1,0 +1,466 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+textarea {
+  resize: vertical;
+}
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+body {
+  font: 16px/26px serif;
+}
+/* ===================
+    ALL: Orange Theme
+   =================== */
+.header-container {
+  border-bottom: 20px solid #e44d26;
+}
+.footer-container,
+.main aside {
+  border-top: 20px solid #e44d26;
+}
+.header-container,
+.footer-container,
+.main aside {
+  background: #f16529;
+}
+.title {
+  color: white;
+}
+/* ==============
+    MOBILE: Main
+   ============== */
+.main {
+  padding: 30px 0;
+}
+.main article h1 {
+  font-size: 2em;
+}
+.main aside {
+  color: white;
+  padding: 0px 5% 10px;
+}
+.footer-container footer {
+  color: white;
+  padding: 20px 0;
+}
+/* ===============
+    ALL: IE Fixes
+   =============== */
+.ie7 .title {
+  padding-top: 20px;
+}
+body {
+  font-family: 'Avenir LT W04_65 Medium';
+  letter-spacing: 1px;
+  color: #754721;
+  background-color: #fff3d2;
+  background-image: url('/img/bg_pattern@2x.png');
+  background-size: 396px 344px;
+}
+.wrapper {
+  margin: 0 auto;
+  position: relative;
+  padding: 0 0.5em;
+  box-sizing: border-box;
+  max-width: 1026px;
+  /* 1140px - 10% for margins */
+}
+a,
+a:visited,
+a:active {
+  color: #754721;
+  text-decoration: none;
+}
+a:hover {
+  color: #754721;
+  text-decoration: underline;
+}
+h1 {
+  text-transform: uppercase;
+  font-family: 'Avenir LT W04_95 Black';
+  font-size: 150%;
+}
+header {
+  padding: 0;
+  background-image: url('/img/header-bg.jpg');
+  position: relative;
+  width: 100%;
+  z-index: 99;
+}
+header section {
+  height: 80px;
+}
+#masthead {
+  margin-top: 1.3em;
+}
+#mobilemenubutton {
+  color: #fff3d2;
+  font-family: 'Avenir LT W04_95 Black';
+  text-transform: uppercase;
+  float: right;
+  position: relative;
+  text-align: right;
+  width: auto;
+  line-height: 80px;
+}
+#navitems {
+  display: none;
+}
+#mobilenavitems {
+  display: none;
+  margin: 0;
+  position: relative;
+  left: 0;
+  top: 0;
+  padding: 0;
+  z-index: 99;
+  margin-bottom: 1em;
+}
+#mobilenavitems li {
+  background-color: rgba(255, 255, 255, 0.7);
+  list-style: none;
+  margin: 0;
+  border-bottom: 1px solid #754721;
+}
+#mobilenavitems li li:hover,
+#mobilenavitems li li:active {
+  background-color: rgba(204, 204, 204, 0.7);
+}
+#mobilenavitems li li a {
+  display: block;
+  padding: 1em;
+}
+footer {
+  text-align: center;
+  padding: 27px 9px 0 9px;
+  color: black;
+  position: relative;
+  color: #754721;
+  margin-bottom: 27px;
+}
+footer p {
+  text-align: left;
+  text-transform: uppercase;
+}
+#footerLogotype {
+  -moz-transform: rotate(7deg);
+  -webkit-transform: rotate(7deg);
+  -o-transform: rotate(7deg);
+  -ms-transform: rotate(7deg);
+  transform: rotate(7deg);
+}
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (min-width: 480px) {
+  /* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+  /* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+}
+@media only screen and (min-width: 768px) {
+  /* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+  .header-container,
+  .main aside {
+    -webkit-box-shadow: 0 5px 10px #aaa;
+    -moz-box-shadow: 0 5px 10px #aaa;
+    box-shadow: 0 5px 10px #aaa;
+  }
+  /* ============
+    WIDE: Menu
+   ============ */
+  .title {
+    float: left;
+  }
+  nav {
+    color: #fff3d2;
+    font-family: 'Avenir LT W04_95 Black';
+    text-transform: uppercase;
+    float: right;
+    position: relative;
+    text-align: right;
+    width: auto;
+    line-height: 80px;
+  }
+  nav li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 1em;
+    font-size: 75%;
+  }
+  nav li a,
+  nav li a:visited,
+  nav li a:active {
+    color: #fff3d2;
+    text-decoration: none;
+  }
+  nav li a:hover {
+    color: #fff3d2;
+    text-decoration: underline;
+  }
+  #navitems {
+    margin: 0;
+    display: block;
+  }
+  #mobilemenubutton {
+    display: none;
+  }
+  /* ============
+    WIDE: Main
+   ============ */
+  .main article {
+    float: left;
+    width: 57%;
+  }
+  .main aside {
+    float: right;
+    width: 28%;
+  }
+}
+@media only screen and (min-width: 1140px) {
+  /* ===============
+    Maximal Width
+   =============== */
+  nav li {
+    font-size: 100%;
+  }
+  .wrapper {
+    width: 1026px;
+    /* 1140px - 10% for margins */
+  }
+}
+#features {
+  margin: 0 auto;
+  max-width: 1026px;
+  /* 1140px - 10% for margins */
+}
+#heropicture {
+  background: url('/img/hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  height: 300px;
+  margin: 0 0.5em 2em 0.5em;
+  box-sizing: border-box;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+ul.tiles {
+  list-style: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+ul.tiles li {
+  max-width: 100%;
+  /*min-height: 21em;*/
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+  border: none;
+  list-style: none;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.5em;
+  width: 50%;
+}
+ul.tiles li a {
+  text-decoration: none;
+  color: #754721;
+}
+ul.tiles figcaption {
+  margin: 0;
+  padding: 0;
+  display: block;
+  height: 32px;
+  width: 100%;
+  position: absolute;
+  bottom: 0   ;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 100;
+}
+ul.tiles figcaption p {
+  line-height: 32px;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0 0 0 1em;
+  font-size: 80%;
+}
+p.tile-category {
+  display: none;
+}
+ul.tiles figure {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+ul.tiles img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+@media only screen and (min-width: 480px) {
+  /* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+  /* mine -- was breaking at 525px */
+  ul.tiles li {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* mine --- was breaking at 725px  */
+  ul.tiles li {
+    width: 33.3%;
+  }
+  #heropicture {
+    height: 400px;
+  }
+}
+@media only screen and (min-width: 1140px) {
+  #heropicture {
+    height: 500px;
+  }
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+.invisible {
+  visibility: hidden;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}

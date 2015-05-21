@@ -1,0 +1,184 @@
+body {
+  font-family: 'Avenir LT W04_65 Medium';
+  letter-spacing: 1px;
+  color: #754721;
+  background-color: #fff3d2;
+  background-image: url('/img/bg_pattern@2x.png');
+  background-size: 396px 344px;
+}
+.wrapper {
+  margin: 0 auto;
+  position: relative;
+  padding: 0 0.5em;
+  box-sizing: border-box;
+  max-width: 1026px;
+  /* 1140px - 10% for margins */
+}
+a,
+a:visited,
+a:active {
+  color: #754721;
+  text-decoration: none;
+}
+a:hover {
+  color: #754721;
+  text-decoration: underline;
+}
+h1 {
+  text-transform: uppercase;
+  font-family: 'Avenir LT W04_95 Black';
+  font-size: 150%;
+}
+header {
+  padding: 0;
+  background-image: url('/img/header-bg.jpg');
+  position: relative;
+  width: 100%;
+  z-index: 99;
+}
+header section {
+  height: 80px;
+}
+#masthead {
+  margin-top: 1.3em;
+}
+#mobilemenubutton {
+  color: #fff3d2;
+  font-family: 'Avenir LT W04_95 Black';
+  text-transform: uppercase;
+  float: right;
+  position: relative;
+  text-align: right;
+  width: auto;
+  line-height: 80px;
+}
+#navitems {
+  display: none;
+}
+#mobilenavitems {
+  display: none;
+  margin: 0;
+  position: relative;
+  left: 0;
+  top: 0;
+  padding: 0;
+  z-index: 99;
+  margin-bottom: 1em;
+}
+#mobilenavitems li {
+  background-color: rgba(255, 255, 255, 0.7);
+  list-style: none;
+  margin: 0;
+  border-bottom: 1px solid #754721;
+}
+#mobilenavitems li li:hover,
+#mobilenavitems li li:active {
+  background-color: rgba(204, 204, 204, 0.7);
+}
+#mobilenavitems li li a {
+  display: block;
+  padding: 1em;
+}
+footer {
+  text-align: center;
+  padding: 27px 9px 0 9px;
+  color: black;
+  position: relative;
+  color: #754721;
+  margin-bottom: 27px;
+}
+footer p {
+  text-align: left;
+  text-transform: uppercase;
+}
+#footerLogotype {
+  -moz-transform: rotate(7deg);
+  -webkit-transform: rotate(7deg);
+  -o-transform: rotate(7deg);
+  -ms-transform: rotate(7deg);
+  transform: rotate(7deg);
+}
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (min-width: 480px) {
+  /* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+  /* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+}
+@media only screen and (min-width: 768px) {
+  /* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+  .header-container,
+  .main aside {
+    -webkit-box-shadow: 0 5px 10px #aaa;
+    -moz-box-shadow: 0 5px 10px #aaa;
+    box-shadow: 0 5px 10px #aaa;
+  }
+  /* ============
+    WIDE: Menu
+   ============ */
+  .title {
+    float: left;
+  }
+  nav {
+    color: #fff3d2;
+    font-family: 'Avenir LT W04_95 Black';
+    text-transform: uppercase;
+    float: right;
+    position: relative;
+    text-align: right;
+    width: auto;
+    line-height: 80px;
+  }
+  nav li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 1em;
+    font-size: 75%;
+  }
+  nav li a,
+  nav li a:visited,
+  nav li a:active {
+    color: #fff3d2;
+    text-decoration: none;
+  }
+  nav li a:hover {
+    color: #fff3d2;
+    text-decoration: underline;
+  }
+  #navitems {
+    margin: 0;
+    display: block;
+  }
+  #mobilemenubutton {
+    display: none;
+  }
+  /* ============
+    WIDE: Main
+   ============ */
+  .main article {
+    float: left;
+    width: 57%;
+  }
+  .main aside {
+    float: right;
+    width: 28%;
+  }
+}
+@media only screen and (min-width: 1140px) {
+  /* ===============
+    Maximal Width
+   =============== */
+  nav li {
+    font-size: 100%;
+  }
+  .wrapper {
+    width: 1026px;
+    /* 1140px - 10% for margins */
+  }
+}

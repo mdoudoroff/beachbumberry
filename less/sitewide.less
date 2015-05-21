@@ -1,0 +1,282 @@
+
+@lightOnDarkTextColor: #fff3d2;
+@darkOnLightTextColor: #754721;
+@overlayBackground: rgba(255,255,255,0.7);
+@globalBackground: #fff3d2;
+
+body {
+    font-family:'Avenir LT W04_65 Medium';
+    letter-spacing: 1px;
+    color: @darkOnLightTextColor;
+    background-color: @globalBackground;
+    background-image: url('/img/bg_pattern@2x.png');
+    background-size: 396px 344px;
+
+}
+
+.wrapper {
+    margin: 0 auto;
+    position: relative;
+    padding: 0 0.5em;
+    box-sizing: border-box;
+    max-width: 1026px; /* 1140px - 10% for margins */
+
+}
+
+a, a:visited, a:active {
+    color: @darkOnLightTextColor;
+    text-decoration: none;
+}
+
+a:hover {
+    color: @darkOnLightTextColor;
+    text-decoration: underline;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family:'Avenir LT W04_95 Black';
+    font-size: 150%;
+}
+
+header {
+    padding: 0;
+    background-image: url('/img/header-bg.jpg');
+    position: relative;
+    width: 100%;
+    z-index: 99;
+
+    section {
+        height: 80px;
+    }
+
+}
+
+
+#masthead {
+    margin-top: 1.3em;
+}
+
+#mobilemenubutton {
+        color: @lightOnDarkTextColor;
+        font-family:'Avenir LT W04_95 Black';
+        text-transform: uppercase;
+
+        float: right;
+        position: relative;
+        text-align: right;
+        width: auto;
+        line-height: 80px;
+}
+
+#navitems {
+    display: none;
+}
+
+#mobilenavitems {
+    display: none;
+    margin: 0;
+    position: relative;
+    left: 0;
+    top:0;
+    padding: 0;
+    z-index: 99;
+    margin-bottom: 1em;
+}
+
+#mobilenavitems li {
+    background-color: @overlayBackground;
+    list-style: none;
+    margin: 0;
+    border-bottom: 1px solid @darkOnLightTextColor;
+
+    li:hover, li:active {
+        background-color: darken(@overlayBackground,20%);
+    }
+
+
+    li a {
+        display: block;
+        padding: 1em;
+    }
+
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 27px 9px 0 9px;
+    color: black;
+    position: relative;
+    color: @darkOnLightTextColor;
+    margin-bottom: 27px;
+
+    p {
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+}
+
+
+#footerLogotype {
+    // position: absolute;
+    // right: 36px;
+    // top: -36px;
+    -moz-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    -o-transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    transform: rotate(7deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    // nav a {
+    //     float: left;
+    //     width: 27%;
+    //     margin: 0 1.7%;
+    //     padding: 25px 2%;
+    //     margin-bottom: 0;
+    // }
+
+    // nav li:first-child a {
+    //     margin-left: 0;
+    // }
+
+    // nav li:last-child a {
+    //     margin-right: 0;
+    // }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    // nav ul li {
+    //     display: inline;
+    // }
+
+    // .oldie nav a {
+    //     margin: 0 0.7%;
+    // }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    // main menu in title bar (non-mobile layout)
+    nav {
+        color: @lightOnDarkTextColor;
+        font-family:'Avenir LT W04_95 Black';
+        text-transform: uppercase;
+
+        float: right;
+        position: relative;
+        text-align: right;
+        width: auto;
+        line-height: 80px;
+
+
+        li {
+            display: inline-block;
+            list-style: none;
+            margin-left: 1em;
+            font-size: 75%;
+        }
+
+        li a, li a:visited, li a:active {
+            color: @lightOnDarkTextColor;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            color: @lightOnDarkTextColor;
+            text-decoration: underline;
+        }
+
+    }
+
+    #navitems {
+        margin: 0;
+        display: block;
+    }
+
+
+    #mobilemenubutton {
+        display: none;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+   nav li {
+    font-size: 100%;
+   }
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+    }
+
+
+}

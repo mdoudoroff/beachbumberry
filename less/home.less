@@ -1,0 +1,146 @@
+@import "html5bp-top.less";
+
+@import "sitewide.less";
+
+#features {
+    margin: 0 auto;
+    max-width: 1026px; /* 1140px - 10% for margins */
+}
+
+#heropicture {
+	background: url('/img/hero.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100%;
+
+	height: 300px;
+	margin: 0 0.5em 2em 0.5em;
+	box-sizing: border-box;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+ul.tiles {
+    list-style: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.tiles li {
+    max-width: 100%;
+    /*min-height: 21em;*/
+    display: inline-block;
+    vertical-align: top;
+    padding:0;
+    border: none;
+    list-style:none;
+    position: relative;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    padding: 0.5em;
+    padding: 0.5em;
+
+    width: 50%;
+
+}
+
+ul.tiles li a {
+    text-decoration: none;
+    color: @darkOnLightTextColor;
+}
+
+ul.tiles figcaption {
+    margin:0;
+    padding: 0;
+    display: block;
+    height: 32px;
+    width: 100%;
+    
+    position: absolute;
+    bottom: 0   ;
+    background-color: @overlayBackground;
+    z-index:100;
+
+}
+
+ul.tiles figcaption p {
+    line-height: 32px;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0 0 0 1em;
+
+    font-size: 80%;
+
+}
+
+p.tile-category {
+    display: none;
+
+}
+
+ul.tiles figure {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+ul.tiles img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+
+
+
+ul.tiles li:hover {
+
+}
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    /* mine -- was breaking at 525px */
+
+    ul.tiles li {
+    	width: 50%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+
+    /* mine --- was breaking at 725px  */
+    ul.tiles li {
+        width: 33.3%;
+    }
+
+    #heropicture {
+    	height: 400px;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+    #heropicture {
+    	height: 500px;
+    }
+
+
+}
+
+
+@import "html5bp-bottom.less";
