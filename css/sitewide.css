@@ -101,10 +101,6 @@ footer p {
 img {
   max-width: 100%;
 }
-.grid,
-.grid2 {
-  display: table;
-}
 .grid img,
 .grid2 img {
   max-width: 50%;
