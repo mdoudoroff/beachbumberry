@@ -66,14 +66,14 @@ header section {
   margin-bottom: 1em;
 }
 #mobilenavitems li {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
   list-style: none;
   margin: 0;
   border-bottom: 1px solid #754721;
 }
 #mobilenavitems li:hover,
 #mobilenavitems li:active {
-  background-color: rgba(204, 204, 204, 0.7);
+  background-color: rgba(204, 204, 204, 0.8);
 }
 #mobilenavitems li a {
   display: block;
@@ -220,12 +220,18 @@ a.buybutton {
   }
   .grid img {
     max-width: 100%;
+    margin: 2em 2em 0 0;
   }
-  img.left {
+  figure.left {
+    box-sizing: border-box;
     float: left;
-    max-width: 35%;
+    width: 40%;
     clear: left;
-    margin-right: 1em;
+    padding: 0 2em 0 0;
+    margin: 0;
+  }
+  figure.left img {
+    max-width: 100%;
   }
 }
 @media only screen and (min-width: 1140px) {
