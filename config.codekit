@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18966",
+"creatorBuild": "19022",
 "files": {
 	"\/404.html": {
 		"fileType": 8192,
@@ -31,11 +31,38 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/barware.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/barware.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/feature.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/feature.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/home.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/home.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/html5bp-top.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/html5bp-top.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -54,6 +81,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/normalize.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/sitewide.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/sitewide.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -246,6 +282,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/barware-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 242786,
+		"inputAbbreviatedPath": "\/img\/barware-hero.jpg",
+		"outputAbbreviatedPath": "\/img\/barware-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/BB_CUP_SWIZZ_0810.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14391,
+		"inputAbbreviatedPath": "\/img\/BB_CUP_SWIZZ_0810.jpg",
+		"outputAbbreviatedPath": "\/img\/BB_CUP_SWIZZ_0810.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/BB_CUP_SWIZZ_0816.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57144,
+		"inputAbbreviatedPath": "\/img\/BB_CUP_SWIZZ_0816.jpg",
+		"outputAbbreviatedPath": "\/img\/BB_CUP_SWIZZ_0816.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/BB_NAVYGROG_wbox_0033.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73594,
+		"inputAbbreviatedPath": "\/img\/BB_NAVYGROG_wbox_0033.jpg",
+		"outputAbbreviatedPath": "\/img\/BB_NAVYGROG_wbox_0033.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/BB_skullspoonwbox_0521-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83770,
+		"inputAbbreviatedPath": "\/img\/BB_skullspoonwbox_0521-hero.jpg",
+		"outputAbbreviatedPath": "\/img\/BB_skullspoonwbox_0521-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/BBBerry-zombie-pour.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 222844,
+		"inputAbbreviatedPath": "\/img\/BBBerry-zombie-pour.jpg",
+		"outputAbbreviatedPath": "\/img\/BBBerry-zombie-pour.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/BBBerry_zombie_pourSM.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -312,6 +414,160 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/CK-BB_DG387_swizzlecup-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 188970,
+		"inputAbbreviatedPath": "\/img\/CK-BB_DG387_swizzlecup-hero.jpg",
+		"outputAbbreviatedPath": "\/img\/CK-BB_DG387_swizzlecup-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/CK-BB_DG429_navygrog-clean.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 123114,
+		"inputAbbreviatedPath": "\/img\/CK-BB_DG429_navygrog-clean.jpg",
+		"outputAbbreviatedPath": "\/img\/CK-BB_DG429_navygrog-clean.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/CK-BB_DG514_skullspoons-detail.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113460,
+		"inputAbbreviatedPath": "\/img\/CK-BB_DG514_skullspoons-detail.jpg",
+		"outputAbbreviatedPath": "\/img\/CK-BB_DG514_skullspoons-detail.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/CK-BB_DG533_potions.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 122203,
+		"inputAbbreviatedPath": "\/img\/CK-BB_DG533_potions.jpg",
+		"outputAbbreviatedPath": "\/img\/CK-BB_DG533_potions.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/food-bahn_mi.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59132,
+		"inputAbbreviatedPath": "\/img\/food-bahn_mi.jpg",
+		"outputAbbreviatedPath": "\/img\/food-bahn_mi.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/food-Duck.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58720,
+		"inputAbbreviatedPath": "\/img\/food-Duck.jpg",
+		"outputAbbreviatedPath": "\/img\/food-Duck.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/food-dumpling_burger.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39010,
+		"inputAbbreviatedPath": "\/img\/food-dumpling_burger.jpg",
+		"outputAbbreviatedPath": "\/img\/food-dumpling_burger.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/food-Loco_moco.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48454,
+		"inputAbbreviatedPath": "\/img\/food-Loco_moco.jpg",
+		"outputAbbreviatedPath": "\/img\/food-Loco_moco.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/food-meat_pie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64734,
+		"inputAbbreviatedPath": "\/img\/food-meat_pie.jpg",
+		"outputAbbreviatedPath": "\/img\/food-meat_pie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/food-rib_entree.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55599,
+		"inputAbbreviatedPath": "\/img\/food-rib_entree.jpg",
+		"outputAbbreviatedPath": "\/img\/food-rib_entree.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/food-soba_noodles.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53476,
+		"inputAbbreviatedPath": "\/img\/food-soba_noodles.jpg",
+		"outputAbbreviatedPath": "\/img\/food-soba_noodles.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/food-Steak_frites.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51328,
+		"inputAbbreviatedPath": "\/img\/food-Steak_frites.jpg",
+		"outputAbbreviatedPath": "\/img\/food-Steak_frites.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/food-wings.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77796,
+		"inputAbbreviatedPath": "\/img\/food-wings.jpg",
+		"outputAbbreviatedPath": "\/img\/food-wings.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/GLS_BB_PEARLDIVER_glass.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 378783,
+		"inputAbbreviatedPath": "\/img\/GLS_BB_PEARLDIVER_glass.jpg",
+		"outputAbbreviatedPath": "\/img\/GLS_BB_PEARLDIVER_glass.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/header-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -319,6 +575,50 @@
 		"initialSize": 18527,
 		"inputAbbreviatedPath": "\/img\/header-bg.jpg",
 		"outputAbbreviatedPath": "\/img\/header-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 343860,
+		"inputAbbreviatedPath": "\/img\/hero.jpg",
+		"outputAbbreviatedPath": "\/img\/hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/kidneyBBBdrunkIllo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/kidneyBBBdrunkIllo.png",
+		"outputAbbreviatedPath": "\/img\/kidneyBBBdrunkIllo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/L29_3drinks-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 115166,
+		"inputAbbreviatedPath": "\/img\/L29_3drinks-hero.jpg",
+		"outputAbbreviatedPath": "\/img\/L29_3drinks-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/l29bar-shot.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 291588,
+		"inputAbbreviatedPath": "\/img\/l29bar-shot.jpg",
+		"outputAbbreviatedPath": "\/img\/l29bar-shot.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -367,6 +667,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/mai-tai-graphic.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 119045,
+		"inputAbbreviatedPath": "\/img\/mai-tai-graphic.jpg",
+		"outputAbbreviatedPath": "\/img\/mai-tai-graphic.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/maitai-copy.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -400,6 +711,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/NavyGrog_CK_MD-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89686,
+		"inputAbbreviatedPath": "\/img\/NavyGrog_CK_MD-hero.jpg",
+		"outputAbbreviatedPath": "\/img\/NavyGrog_CK_MD-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/NavyGrog_CK_MD.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65195,
+		"inputAbbreviatedPath": "\/img\/NavyGrog_CK_MD.jpg",
+		"outputAbbreviatedPath": "\/img\/NavyGrog_CK_MD.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/OTH_NAVYGROG_0000_CK_-2T.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -407,6 +740,28 @@
 		"initialSize": 56061,
 		"inputAbbreviatedPath": "\/img\/OTH_NAVYGROG_0000_CK_-2T.jpg",
 		"outputAbbreviatedPath": "\/img\/OTH_NAVYGROG_0000_CK_-2T.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pearl-diver-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 217811,
+		"inputAbbreviatedPath": "\/img\/pearl-diver-hero.jpg",
+		"outputAbbreviatedPath": "\/img\/pearl-diver-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/PearlDiver_CK_MD.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58610,
+		"inputAbbreviatedPath": "\/img\/PearlDiver_CK_MD.jpg",
+		"outputAbbreviatedPath": "\/img\/PearlDiver_CK_MD.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -455,6 +810,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/remixed-cover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 138764,
+		"inputAbbreviatedPath": "\/img\/remixed-cover.jpg",
+		"outputAbbreviatedPath": "\/img\/remixed-cover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/RemixedCover-copy.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -473,6 +839,39 @@
 		"initialSize": 201969,
 		"inputAbbreviatedPath": "\/img\/Sippin-Book-Cover-copy.jpg",
 		"outputAbbreviatedPath": "\/img\/Sippin-Book-Cover-copy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sippin-book-cover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34373,
+		"inputAbbreviatedPath": "\/img\/sippin-book-cover.jpg",
+		"outputAbbreviatedPath": "\/img\/sippin-book-cover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/social-fb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1766,
+		"inputAbbreviatedPath": "\/img\/social-fb.png",
+		"outputAbbreviatedPath": "\/img\/social-fb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/social-fb@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2079,
+		"inputAbbreviatedPath": "\/img\/social-fb@2x.png",
+		"outputAbbreviatedPath": "\/img\/social-fb@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -561,6 +960,17 @@
 		"initialSize": 1946,
 		"inputAbbreviatedPath": "\/img\/social-twitter@2x.png",
 		"outputAbbreviatedPath": "\/img\/social-twitter@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/taboo-cover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 191338,
+		"inputAbbreviatedPath": "\/img\/taboo-cover.jpg",
+		"outputAbbreviatedPath": "\/img\/taboo-cover.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -672,6 +1082,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/js\/main-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/main-min.js",
+		"outputAbbreviatedPath": "\/js\/main-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"syntaxCheckerStyle": 1
 		},
 	"\/js\/main.js": {
 		"fileType": 64,
@@ -804,6 +1225,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/pearldiver.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/pearldiver.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/potions.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -822,6 +1252,51 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/publications.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/publications.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/recipe-navygrog.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/recipe-navygrog.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/recipe-pearldiver.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/recipe-pearldiver.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/recipe-swizzle.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/recipe-swizzle.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/recipes.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/recipes.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/remixed.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -836,6 +1311,33 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sippinsafari.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/skullspoon.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/skullspoon.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/swizzlecup.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/swizzlecup.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/tabootable.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/tabootable.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

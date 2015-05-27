@@ -3,6 +3,7 @@
 @darkOnLightTextColor: #754721;
 @overlayBackground: rgba(255,255,255,0.7);
 @globalBackground: #fff3d2;
+@ecommerceColor: #dd3d29;
 
 body {
     font-family:'Avenir LT W04_65 Medium';
@@ -135,12 +136,54 @@ footer {
     transform: rotate(7deg);
 }
 
+img {
+    max-width: 100%;   
+}
+
+.grid, .grid2 {
+
+    display: table;
+
+    img {
+        max-width: 50%;
+        float: left;
+    }
+
+}
+
+.grid2 img {
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    padding: 0.5em;
+    padding: 0.5em;
+
+    width: 50%;
+}
+
+.copy {
+    max-width: 32em;
+    margin: 0;
+    margin-top: 2em;
+    clear: both;
+}
+
+.copyCentered {
+    max-width: 32em;
+    margin: 0 auto;
+    margin-top: 2em;
+    clear: both;   
+}
 
 
-
-
-
-
+a.buybutton {
+    display: inline-block;
+    background-color: @ecommerceColor;
+    color: white;
+    padding: 0.5em 1em;
+}
 
 
 
@@ -227,6 +270,8 @@ footer {
             list-style: none;
             margin-left: 1em;
             font-size: 75%;
+            height: 79px;
+
         }
 
         li a, li a:visited, li a:active {
@@ -266,6 +311,32 @@ footer {
     }
 
 
+    .copy {
+        text-align: left;
+        margin-left: 40%;
+        clear: none;
+    }
+
+    .grid {
+        float: left;
+        width: 40%;
+        box-sizing: border-box;
+        padding-right: 2em;
+
+        img {
+            max-width: 100%;
+        }
+
+    }
+
+    img.left {
+        float: left;
+        max-width: 35%;
+        clear:left;
+        margin-right: 1em;
+    }
+
+
 }
 
 @media only screen and (min-width: 1140px) {
@@ -275,12 +346,11 @@ footer {
    =============== */
 
    nav li {
-    font-size: 100%;
+        font-size: 100%;
    }
 
     .wrapper {
         width: 1026px; /* 1140px - 10% for margins */
     }
-
 
 }
