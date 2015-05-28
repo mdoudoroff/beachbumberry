@@ -255,7 +255,8 @@ ul.tiles li {
   padding: 0.5em;
 }
 ul.tiles li a,
-ul.xreftiles li a {
+ul.xreftiles li a,
+a.fauxtilelink {
   color: #754721;
   text-decoration: none;
 }
@@ -267,7 +268,8 @@ ul.tiles figcaption ul.xreftiles figcaption {
   width: 100%;
 }
 ul.tiles figcaption p,
-ul.xreftiles figcaption p {
+ul.xreftiles figcaption p,
+a.fauxtilelink {
   line-height: 1.0;
   font-size: 13px;
   text-transform: uppercase;
@@ -292,7 +294,8 @@ ul.xreftiles img {
   border: 0;
 }
 ul.tiles li:hover,
-ul.xreftiles li:hover {
+ul.xreftiles li:hover,
+a.fauxtilelink:hover {
   text-decoration: underline;
 }
 ul.xreftiles li {
