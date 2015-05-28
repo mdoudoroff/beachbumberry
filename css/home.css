@@ -370,7 +370,6 @@ ul.tiles li {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0.5em;
-  width: 50%;
 }
 ul.tiles li a {
   text-decoration: none;
