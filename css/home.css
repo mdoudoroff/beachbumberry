@@ -98,7 +98,7 @@ body {
   background-size: 396px 344px;
 }
 .wrapper {
-  margin: 0 auto 1em auto;
+  margin: 0 auto 0 auto;
   position: relative;
   padding: 0 0.5em;
   box-sizing: border-box;
@@ -137,6 +137,7 @@ header section {
   color: #fff3d2;
   font-family: 'Avenir LT W04_95 Black';
   text-transform: uppercase;
+  text-decoration: none;
   float: right;
   position: relative;
   text-align: right;
@@ -169,6 +170,7 @@ header section {
 #mobilenavitems li a {
   display: block;
   padding: 1em;
+  text-decoration: none;
 }
 footer {
   text-align: center;
@@ -375,6 +377,7 @@ ul.xreftiles li {
   }
   #mobilemenubutton {
     display: none;
+    text-decoration: none;
   }
   /* ============
     WIDE: Main
