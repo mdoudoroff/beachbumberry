@@ -7,7 +7,7 @@ body {
   background-size: 396px 344px;
 }
 .wrapper {
-  margin: 0 auto;
+  margin: 0 auto 1em auto;
   position: relative;
   padding: 0 0.5em;
   box-sizing: border-box;
@@ -18,10 +18,10 @@ a,
 a:visited,
 a:active {
   color: #754721;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:hover {
-  color: #754721;
+  color: red;
   text-decoration: underline;
 }
 h1 {
@@ -130,6 +130,95 @@ a.buybutton {
   background-color: #dd3d29;
   color: white;
   padding: 0.5em 1em;
+  text-decoration: none;
+}
+a.buybutton:hover {
+  background-color: red;
+}
+#features {
+  margin: 0 auto;
+  max-width: 1026px;
+  /* 1140px - 10% for margins */
+}
+ul.tiles,
+ul.xreftiles {
+  list-style: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+ul.tiles li {
+  max-width: 100%;
+  /*min-height: 21em;*/
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+  border: none;
+  list-style: none;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.5em;
+}
+ul.tiles li a,
+ul.xreftiles li a {
+  color: #754721;
+  text-decoration: none;
+}
+ul.tiles figcaption ul.xreftiles figcaption {
+  margin: 0;
+  padding: 0;
+  display: block;
+  height: 32px;
+  width: 100%;
+}
+ul.tiles figcaption p,
+ul.xreftiles figcaption p {
+  line-height: 1.0;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin: 0.5em 0;
+  font-size: 80%;
+}
+p.tile-category {
+  display: none;
+}
+ul.tiles figure,
+ul.xreftiles figure {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+ul.tiles img,
+ul.xreftiles img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+ul.tiles li:hover,
+ul.xreftiles li:hover {
+  text-decoration: underline;
+}
+ul.xreftiles li {
+  max-width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+  border: none;
+  list-style: none;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-right: 1em;
+}
+.new {
+  text-transform: uppercase;
+  font-family: 'Avenir LT W04_95 Black';
+  color: #dd3d29;
 }
 /* ==========================================================================
    Media Queries
@@ -141,6 +230,10 @@ a.buybutton {
   /* ========================
     INTERMEDIATE: IE Fixes
    ======================== */
+  /* mine -- was breaking at 525px */
+  ul.tiles li {
+    width: 50%;
+  }
 }
 @media only screen and (min-width: 768px) {
   /* ====================
@@ -228,6 +321,10 @@ a.buybutton {
   }
   figure.left img {
     max-width: 100%;
+  }
+  /* mine --- was breaking at 725px  */
+  ul.tiles li {
+    width: 33.3%;
   }
 }
 @media only screen and (min-width: 1140px) {

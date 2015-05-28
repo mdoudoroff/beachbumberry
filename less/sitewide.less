@@ -16,7 +16,7 @@ body {
 }
 
 .wrapper {
-    margin: 0 auto;
+    margin: 0 auto 1em auto;
     position: relative;
     padding: 0 0.5em;
     box-sizing: border-box;
@@ -26,11 +26,11 @@ body {
 
 a, a:visited, a:active {
     color: @darkOnLightTextColor;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover {
-    color: @darkOnLightTextColor;
+    color: red;
     text-decoration: underline;
 }
 
@@ -106,9 +106,6 @@ header {
 }
 
 
-
-
-
 footer {
     text-align: center;
     padding: 27px 9px 0 9px;
@@ -182,12 +179,125 @@ a.buybutton {
     background-color: @ecommerceColor;
     color: white;
     padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+a.buybutton:hover {
+    background-color: red;
+}
+
+
+#features {
+    margin: 0 auto;
+    max-width: 1026px; /* 1140px - 10% for margins */
+}
+
+ul.tiles, ul.xreftiles {
+    list-style: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.tiles li {
+    max-width: 100%;
+    /*min-height: 21em;*/
+    display: inline-block;
+    vertical-align: top;
+    padding:0;
+    border: none;
+    list-style:none;
+    position: relative;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    padding: 0.5em;
+    padding: 0.5em;
+
+    //width: 50%;
+
+}
+
+ul.tiles li a, ul.xreftiles li a {
+    color: @darkOnLightTextColor;
+    text-decoration: none;
+}
+
+ul.tiles figcaption ul.xreftiles figcaption {
+    margin:0;
+    padding: 0;
+    display: block;
+    height: 32px;
+    width: 100%;
+    
+    // position: absolute;
+    // bottom: 0;
+    // background-color: @overlayBackground;
+    // z-index:100;
+
+}
+
+ul.tiles figcaption p, ul.xreftiles figcaption p {
+    line-height: 1.0;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0.5em 0;
+    // padding: 0 0 0 1em;
+
+    font-size: 80%;
+
+}
+
+p.tile-category {
+    display: none;
+
+}
+
+ul.tiles figure, ul.xreftiles figure {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+ul.tiles img, ul.xreftiles img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
 }
 
 
 
+ul.tiles li:hover, ul.xreftiles li:hover {
+    text-decoration: underline;
+}
 
+ul.xreftiles li {
+    max-width: 50%;
 
+    display: inline-block;
+    vertical-align: top;
+    padding:0;
+    border: none;
+    list-style:none;
+    position: relative;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    margin-right: 1em;
+
+}
+
+.new {
+    text-transform: uppercase;
+    font-family:'Avenir LT W04_95 Black';
+    color: @ecommerceColor;
+}
 
 
 
@@ -228,6 +338,14 @@ a.buybutton {
     // .oldie nav a {
     //     margin: 0 0.7%;
     // }
+
+
+    /* mine -- was breaking at 525px */
+    ul.tiles li {
+        width: 50%;
+    }
+
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -295,6 +413,7 @@ a.buybutton {
         display: none;
     }
 
+
 /* ============
     WIDE: Main
    ============ */
@@ -343,6 +462,10 @@ a.buybutton {
     }
 
 
+    /* mine --- was breaking at 725px  */
+    ul.tiles li {
+        width: 33.3%;
+    }
 
 
 }

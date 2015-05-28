@@ -458,6 +458,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/drink-aquadesiac.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59155,
+		"inputAbbreviatedPath": "\/img\/drink-aquadesiac.jpg",
+		"outputAbbreviatedPath": "\/img\/drink-aquadesiac.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/drink-nui-nui.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51354,
+		"inputAbbreviatedPath": "\/img\/drink-nui-nui.jpg",
+		"outputAbbreviatedPath": "\/img\/drink-nui-nui.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/drink-paniolo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29088,
+		"inputAbbreviatedPath": "\/img\/drink-paniolo.jpg",
+		"outputAbbreviatedPath": "\/img\/drink-paniolo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/food-bahn_mi.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
