@@ -134,6 +134,7 @@ footer {
     transform: rotate(7deg);
 }
 
+
 img {
     max-width: 100%;   
 }
@@ -346,7 +347,6 @@ ul.xreftiles li {
         width: 50%;
     }
 
-
 }
 
 @media only screen and (min-width: 768px) {
@@ -470,6 +470,24 @@ ul.xreftiles li {
     }
 
 
+    #footerLogotype.right {
+        position: absolute;
+        right: 0;
+        bottom: 2em;
+    }
+
+    #footerLogotype.left {
+        position: absolute;
+        left: 0;
+        bottom: 2em;
+        -moz-transform: rotate(-7deg);
+        -webkit-transform: rotate(-7deg);
+        -o-transform: rotate(-7deg);
+        -ms-transform: rotate(-7deg);
+        transform: rotate(-7deg);
+    }
+
+
 }
 
 @media only screen and (min-width: 1140px) {
@@ -485,5 +503,16 @@ ul.xreftiles li {
     .wrapper {
         width: 1026px; /* 1140px - 10% for margins */
     }
+
+    #footerLogotype.right {
+        position: absolute;
+        right: -5%;
+    }
+
+    #footerLogotype.left {
+        position: absolute;
+        left: -5%;
+    }
+
 
 }
