@@ -496,6 +496,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/drink-maitai.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66919,
+		"inputAbbreviatedPath": "\/img\/drink-maitai.jpg",
+		"outputAbbreviatedPath": "\/img\/drink-maitai.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/drink-nui-nui.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1152,6 +1163,17 @@
 		"initialSize": 147447,
 		"inputAbbreviatedPath": "\/img\/tile.about.jpg",
 		"outputAbbreviatedPath": "\/img\/tile.about.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tile.how-mai-tai-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24206,
+		"inputAbbreviatedPath": "\/img\/tile.how-mai-tai-2.jpg",
+		"outputAbbreviatedPath": "\/img\/tile.how-mai-tai-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
