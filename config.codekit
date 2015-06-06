@@ -881,6 +881,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/press_pic.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129798,
+		"inputAbbreviatedPath": "\/img\/press_pic.jpg",
+		"outputAbbreviatedPath": "\/img\/press_pic.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/remixed-cover.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
