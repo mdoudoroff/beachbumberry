@@ -3,13 +3,15 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+	Victoria Abrami & Jeannette Kaczorowski -- Graphic art and art direction -- @CocktailKingdom
+	Don Lee & Jeannette Kaczorowski et al -- Product photography -- @CocktailKingdom
+	Annene Kaye -- Additional photography -- @Latitude29_NOLA
+    Martin Doudoroff -- Site design and implementation -- @mdoudoroff
+    
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    nginx
+    Avenir Medium, Avenir Black (monotype)
+    
