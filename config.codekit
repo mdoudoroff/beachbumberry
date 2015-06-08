@@ -298,6 +298,17 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/img\/151-swizzle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35715,
+		"inputAbbreviatedPath": "\/img\/151-swizzle.jpg",
+		"outputAbbreviatedPath": "\/img\/151-swizzle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/app-combo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -749,6 +760,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/mai-tai-photo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38935,
+		"inputAbbreviatedPath": "\/img\/mai-tai-photo.jpg",
+		"outputAbbreviatedPath": "\/img\/mai-tai-photo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/maitai-copy.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1167,6 +1189,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/tile.151-swizzle2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21753,
+		"inputAbbreviatedPath": "\/img\/tile.151-swizzle2.jpg",
+		"outputAbbreviatedPath": "\/img\/tile.151-swizzle2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/tile.about.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1229,6 +1262,17 @@
 		"initialSize": 303880,
 		"inputAbbreviatedPath": "\/img\/tile.how-zombie.jpg",
 		"outputAbbreviatedPath": "\/img\/tile.how-zombie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tile.how-zombie2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34527,
+		"inputAbbreviatedPath": "\/img\/tile.how-zombie2.jpg",
+		"outputAbbreviatedPath": "\/img\/tile.how-zombie2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1350,6 +1394,17 @@
 		"initialSize": 195534,
 		"inputAbbreviatedPath": "\/img\/tile.total-tiki.jpg",
 		"outputAbbreviatedPath": "\/img\/tile.total-tiki.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/zombie-drink.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73669,
+		"inputAbbreviatedPath": "\/img\/zombie-drink.jpg",
+		"outputAbbreviatedPath": "\/img\/zombie-drink.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
