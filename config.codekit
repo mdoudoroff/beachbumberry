@@ -331,6 +331,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/BB_Barware_PearlDiver_Banner.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 272268,
+		"inputAbbreviatedPath": "\/img\/BB_Barware_PearlDiver_Banner.jpg",
+		"outputAbbreviatedPath": "\/img\/BB_Barware_PearlDiver_Banner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/BB_CUP_SWIZZ_0810.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
