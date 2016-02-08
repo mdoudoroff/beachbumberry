@@ -73,6 +73,7 @@ header {
 
 #navitems {
     display: none;
+    padding-left: 0;
 }
 
 #mobilenavitems {
@@ -407,8 +408,8 @@ ul.xreftiles li {
             display: inline-block;
             list-style: none;
             margin-left: 1em;
-            font-size: 75%;
-            height: 79px;
+            font-size: 70%;
+            height: 78px;
 
         }
 
@@ -509,15 +510,24 @@ ul.xreftiles li {
 
 }
 
+@media only screen and (min-width: 820px) {
+   nav li {
+        font-size: 80%;
+   }
+}
+
+@media only screen and (min-width: 950px) {
+   nav li {
+        font-size: 100%;
+   }
+}
+
 @media only screen and (min-width: 1140px) {
 
 /* ===============
     Maximal Width
    =============== */
 
-   nav li {
-        font-size: 100%;
-   }
 
     .wrapper {
         width: 1026px; /* 1140px - 10% for margins */
