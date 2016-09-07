@@ -485,6 +485,9 @@ ul.xreftiles li {
     left: -5%;
   }
 }
+#topfeature {
+  margin-bottom: 1em;
+}
 @media only screen and (min-width: 480px) {
   /* ====================
     INTERMEDIATE: Menu

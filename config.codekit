@@ -31,6 +31,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/barware-coconut-mugs.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/barware-coconut-mugs.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/barware-ice-cone.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -72,6 +81,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/barware-swizzle-cup.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/barware-zombie-glasses.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/barware-zombie-glasses.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -492,6 +510,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bottle.falernum.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78634,
+		"inputAbbreviatedPath": "\/img\/bottle.falernum.jpg",
+		"outputAbbreviatedPath": "\/img\/bottle.falernum.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/CK-BB_DG387_swizzlecup-hero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -554,6 +583,28 @@
 		"initialSize": 21930,
 		"inputAbbreviatedPath": "\/img\/cocktail-picks-trio-square.jpg",
 		"outputAbbreviatedPath": "\/img\/cocktail-picks-trio-square.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/coconut-mug-bbb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41784,
+		"inputAbbreviatedPath": "\/img\/coconut-mug-bbb.jpg",
+		"outputAbbreviatedPath": "\/img\/coconut-mug-bbb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/coconut-mug-l29.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44996,
+		"inputAbbreviatedPath": "\/img\/coconut-mug-l29.jpg",
+		"outputAbbreviatedPath": "\/img\/coconut-mug-l29.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -719,6 +770,17 @@
 		"initialSize": 18527,
 		"inputAbbreviatedPath": "\/img\/header-bg.jpg",
 		"outputAbbreviatedPath": "\/img\/header-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero.coconut-mugs.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90114,
+		"inputAbbreviatedPath": "\/img\/hero.coconut-mugs.jpg",
+		"outputAbbreviatedPath": "\/img\/hero.coconut-mugs.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1152,6 +1214,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/syrups-duo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73026,
+		"inputAbbreviatedPath": "\/img\/syrups-duo.jpg",
+		"outputAbbreviatedPath": "\/img\/syrups-duo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/taboo-cover.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1302,6 +1375,17 @@
 		"initialSize": 147447,
 		"inputAbbreviatedPath": "\/img\/tile.about.jpg",
 		"outputAbbreviatedPath": "\/img\/tile.about.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tile.coconut-mugs.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35562,
+		"inputAbbreviatedPath": "\/img\/tile.coconut-mugs.jpg",
+		"outputAbbreviatedPath": "\/img\/tile.coconut-mugs.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1493,6 +1577,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/tile.syrups.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43751,
+		"inputAbbreviatedPath": "\/img\/tile.syrups.jpg",
+		"outputAbbreviatedPath": "\/img\/tile.syrups.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/tile.taboo-table.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1515,6 +1610,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/tile.zombie-glasses.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57677,
+		"inputAbbreviatedPath": "\/img\/tile.zombie-glasses.jpg",
+		"outputAbbreviatedPath": "\/img\/tile.zombie-glasses.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/zombie-drink.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1522,6 +1628,50 @@
 		"initialSize": 73669,
 		"inputAbbreviatedPath": "\/img\/zombie-drink.jpg",
 		"outputAbbreviatedPath": "\/img\/zombie-drink.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/zombie-drink2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 100153,
+		"inputAbbreviatedPath": "\/img\/zombie-drink2.jpg",
+		"outputAbbreviatedPath": "\/img\/zombie-drink2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/zombie-glass-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 128025,
+		"inputAbbreviatedPath": "\/img\/zombie-glass-hero.jpg",
+		"outputAbbreviatedPath": "\/img\/zombie-glass-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/zombie-glasses-back.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36691,
+		"inputAbbreviatedPath": "\/img\/zombie-glasses-back.jpg",
+		"outputAbbreviatedPath": "\/img\/zombie-glasses-back.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/zombie-glasses-front.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46692,
+		"inputAbbreviatedPath": "\/img\/zombie-glasses-front.jpg",
+		"outputAbbreviatedPath": "\/img\/zombie-glasses-front.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1688,15 +1838,6 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/orgeat.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/orgeat.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/press.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1819,6 +1960,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/recipes.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/syrups.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/syrups.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
