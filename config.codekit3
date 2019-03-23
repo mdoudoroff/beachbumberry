@@ -303,6 +303,14 @@
 		"oAP": "/barware.html",
 		"oF": 0
 		},
+	"/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/browserconfig.xml",
+		"oF": 0
+		},
 	"/crossdomain.xml": {
 		"cB": 0,
 		"ft": 8192,
@@ -565,6 +573,14 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/favicon.ico",
+		"oF": 0
 		},
 	"/humans.txt": {
 		"cB": 0,
