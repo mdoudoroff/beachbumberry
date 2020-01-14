@@ -90,7 +90,7 @@ body {
   padding-top: 20px;
 }
 body {
-  font-family: 'Avenir LT W04_65 Medium';
+  font-family: aktiv-grotesk-std, sans-serif;
   letter-spacing: 1px;
   color: #754721;
   background-color: #fff3d2;
@@ -117,8 +117,9 @@ a:hover {
 }
 h1 {
   text-transform: uppercase;
-  font-family: 'Avenir LT W04_95 Black';
+  font-family: aktiv-grotesk-std, sans-serif;
   font-size: 150%;
+  font-weight: 900;
 }
 header {
   padding: 0;
@@ -138,7 +139,7 @@ section {
 }
 #mobilemenubutton {
   color: #fff3d2;
-  font-family: 'Avenir LT W04_95 Black';
+  font-family: aktiv-grotesk-std, sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   float: right;
@@ -263,6 +264,7 @@ ul.xreftiles li a,
 a.fauxtilelink {
   color: #754721;
   text-decoration: none;
+  font-weight: 700;
 }
 ul.tiles figcaption ul.xreftiles figcaption {
   margin: 0;
@@ -274,7 +276,7 @@ ul.tiles figcaption ul.xreftiles figcaption {
 ul.tiles figcaption p,
 ul.xreftiles figcaption p,
 a.fauxtilelink {
-  line-height: 1.0;
+  line-height: 1;
   font-size: 13px;
   text-transform: uppercase;
   margin: 0.5em 0;
@@ -317,7 +319,7 @@ ul.xreftiles li {
 }
 .new {
   text-transform: uppercase;
-  font-family: 'Avenir LT W04_95 Black';
+  font-family: aktiv-grotesk-std, sans-serif;
   color: #dd3d29;
 }
 .video-container {
@@ -368,7 +370,7 @@ ul.xreftiles li {
   }
   nav {
     color: #fff3d2;
-    font-family: 'Avenir LT W04_95 Black';
+    font-family: aktiv-grotesk-std, sans-serif;
     text-transform: uppercase;
     float: right;
     position: relative;
@@ -395,6 +397,7 @@ ul.xreftiles li {
   }
   #navitems {
     margin: 0;
+    font-weight: 700;
     display: block;
   }
   #mobilemenubutton {
