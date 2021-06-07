@@ -7,7 +7,7 @@
       "uuidString" : "DF1F68F7-1872-459F-8066-D148383AB2D0"
     }
   ],
-  "creatorBuild" : "34081",
+  "creatorBuild" : "34127",
   "files" : {
     "\/.gitignore" : {
       "cB" : 0,
@@ -281,6 +281,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/barware-coconut-mugs.html",
+      "oF" : 0
+    },
+    "\/barware-deep-six-bowl.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/barware-deep-six-bowl.html",
       "oF" : 0
     },
     "\/barware-ice-cone.html" : {
@@ -3113,6 +3121,9 @@
       "removeVariables" : 0,
       "safelistEntries" : [
 
+      ],
+      "skippedEntries" : [
+        "node_modules\/**"
       ]
     },
     "rollupContext" : "",
@@ -3147,6 +3158,7 @@
     "tsNoImplicitThis" : 0,
     "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
+    "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
     "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,
