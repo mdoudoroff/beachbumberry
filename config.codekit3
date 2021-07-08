@@ -1055,6 +1055,14 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/zombie-rum.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 2,
+      "oAP" : "\/zombie-rum.html",
+      "oF" : 0
     }
   },
   "hooks" : [

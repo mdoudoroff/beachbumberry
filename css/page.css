@@ -199,6 +199,9 @@ footer p {
 img {
   max-width: 100%;
 }
+.nomobile {
+  display: none;
+}
 .grid img,
 .grid2 img {
   max-width: 50%;
@@ -353,6 +356,9 @@ ul.xreftiles li {
   }
 }
 @media only screen and (min-width: 768px) {
+  .nomobile {
+    display: block;
+  }
   /* ====================
     WIDE: CSS3 Effects
    ==================== */
