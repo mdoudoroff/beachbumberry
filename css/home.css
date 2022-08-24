@@ -494,6 +494,9 @@ ul.xreftiles li {
     left: -5%;
   }
 }
+ul.features li {
+  margin-bottom: 0.5em;
+}
 #topfeature {
   margin-bottom: 1em;
 }
