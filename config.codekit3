@@ -7,7 +7,7 @@
       "uuidString" : "DF1F68F7-1872-459F-8066-D148383AB2D0"
     }
   ],
-  "creatorBuild" : "34365",
+  "creatorBuild" : "34418",
   "files" : {
     "\/.gitignore" : {
       "cB" : 0,
@@ -1969,7 +1969,8 @@
         "optionString" : "'event', 'fdescribe'"
       },
       "no-restricted-imports" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : ""
       },
       "no-restricted-properties" : {
         "active" : 0,
@@ -2597,6 +2598,7 @@
       "createDeclarationFile" : 0,
       "jsxMode" : 0,
       "minifierStyle" : 0,
+      "moduleDetectionType" : 0,
       "moduleResolutionType" : 0,
       "moduleType" : 0,
       "removeComments" : 0,
