@@ -7,7 +7,7 @@
       "uuidString" : "DF1F68F7-1872-459F-8066-D148383AB2D0"
     }
   ],
-  "creatorBuild" : "34418",
+  "creatorBuild" : "34434",
   "files" : {
     "\/.gitignore" : {
       "cB" : 0,
@@ -1807,7 +1807,8 @@
         "active" : 1
       },
       "no-fallthrough" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowEmptyCase': false}"
       },
       "no-floating-decimal" : {
         "active" : 0
