@@ -275,12 +275,12 @@
       "oAP" : "\/barware-borabora-mug.html",
       "oF" : 0
     },
-    "\/barware-coconut-mugs.html" : {
+    "\/barware-coconut-mugs-DISABLED.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/barware-coconut-mugs.html",
+      "oAP" : "\/barware-coconut-mugs-DISABLED.html",
       "oF" : 0
     },
     "\/barware-deep-six-bowl.html" : {
